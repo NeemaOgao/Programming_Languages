@@ -16,7 +16,7 @@ class Calculator():
     def division(self):
         return print(number1,"÷",number2,"= ",(self.number1/self.number2))
 
-#Input two numbers from the user and calculate the sum and the difference
+#Input two numbers from the user 
 number1=float (input("Enter the first number : "))
 number2=float (input("Enter the second number: "))
 numbers= Calculator(number1,number2)
